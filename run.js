@@ -8,7 +8,7 @@ const buildOutput = exec(command)
 
 const uri = buildOutput.slice(buildOutput.lastIndexOf('s3://'))
 
-const sql = 'select party, state, type, full_name from `legislators-current.csv` where gender = "F" ORDER BY party, state, type, full_name'
+const sql = 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 
 const query = `npx -q ipsql@latest query s3://ipsql-open-data/bafyreietsf42p3rgich3mr6uenf26vrnzobmq5mlb4kpwwxlxyevdcgvqm.cid '${ sql }'`
 
