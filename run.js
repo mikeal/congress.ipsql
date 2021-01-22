@@ -2,7 +2,7 @@
 import { execSync as exec } from 'child_process'
 
 const csv = `https://theunitedstates.io/congress-legislators/legislators-current.csv`
-const command = `npx ipsql@latest import export ${ csv } s3://ipsql-open-data`
+const command = `npx -q ipsql@latest import export ${ csv } s3://ipsql-open-data`
 
 const readme = `# Congress Terms (FiveThirtyEight) in IPSQL
 
