@@ -1,7 +1,7 @@
 {
-  "name": "congress-terms.ipsql",
+  "name": "congress.ipsql",
   "version": "0.0.0",
-  "description": "",
+  "description": "Congressional IPSQL Databases",
   "main": "index.js",
   "type": "module",
   "scripts": {
