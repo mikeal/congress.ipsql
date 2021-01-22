@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 1/22/2021, 5:26:58 PM
+Build: 1/22/2021, 6:58:41 PM
 
 ## Current Legislators
 
@@ -46,11 +46,13 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreietsf42p3rgich3mr6uenf26vrnzobmq5mlb4kpwwxlxyevdcgvqm.cid
+s3://ipsql-open-data/bafyreifti6xmhbgjcvx4nbsi7qemu3su6ddfosgyqtson65fkjbbhab5f4.cid
 
 ```
 
 ### Sample Queries
+
+This query will return information on all the female congress members currently serving.
 
 SQL
 
