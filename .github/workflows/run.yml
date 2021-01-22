@@ -13,7 +13,7 @@ jobs:
         uses: actions/setup-node@v1
         with:
           node-version: 14.x
-      - run: ./run.js >> README.md
+      - run: ./run.js &> README.md
         env:
           AWS_DEFAULT_REGION: us-west-2
           AWS_ACCESS_KEY_ID: ${{ secrets.AWS_ACCESS_KEY_ID }}
