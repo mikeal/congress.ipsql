@@ -1,14 +1,13 @@
-npx: installed 354 in 13.953s
 # Congress Terms (FiveThirtyEight) in IPSQL
 
-Build: 1/22/2021, 4:55:11 AM
+Build: 1/22/2021, 4:56:26 AM
 
 ## Current Legislators
 
 Parsed from [CSV](https://theunitedstates.io/congress-legislators/legislators-current.csv).
 
 ```
-$ npx ipsql@latest import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
+$ npx -q ipsql@latest import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
 ```
 
 ```
