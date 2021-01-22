@@ -1,354 +1,353 @@
-npx: installed 354 in 18.968s
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+npx: installed 354 in 15.546s
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
 (Use `node --trace-warnings ...` to show where the warning was created)
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
-(node:2994) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
-(node:2994) PromiseRejectionHandledWarning: Promise rejection was handled asynchronously (rejection id: 4)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 17)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 19)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 20)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 21)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 22)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 23)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 24)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 25)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 26)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 27)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 28)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 29)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 30)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 31)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 32)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 33)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 34)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 35)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 36)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 37)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 38)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 39)
-(node:2994) UnhandledPromiseRejectionWarning: Error: Region is missing
-    at default (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
-    at async /home/runner/.npm/_npx/2994/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
-(node:2994) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 40)
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 4)
+(node:2993) [DEP0018] DeprecationWarning: Unhandled promise rejections are deprecated. In the future, promise rejections that are not handled will terminate the Node.js process with a non-zero exit code.
+(node:2993) PromiseRejectionHandledWarning: Promise rejection was handled asynchronously (rejection id: 4)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 5)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 6)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 7)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 8)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 9)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 10)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 11)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 12)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 13)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 14)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 15)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 16)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 17)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 18)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 19)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 20)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 21)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 22)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 23)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 24)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 25)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 26)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 27)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 28)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 29)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 30)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 31)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 32)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 33)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 34)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 35)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 36)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 37)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 38)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 39)
+(node:2993) UnhandledPromiseRejectionWarning: Error: Region is missing
+    at default (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
+    at /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
+    at async getEndPointFromRegion (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
+    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
+    at async /home/runner/.npm/_npx/2993/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
+(node:2993) UnhandledPromiseRejectionWarning: Unhandled promise rejection. This error originated either by throwing inside of an async function without a catch block, or by rejecting a promise which was not handled with .catch(). To terminate the node process on unhandled promise rejection, use the CLI flag `--unhandled-rejections=strict` (see https://nodejs.org/api/cli.html#cli_unhandled_rejections_mode). (rejection id: 40)
 # Congress Terms (FiveThirtyEight) in IPSQL
 
-# Build: 1/22/2021, 4:01:58 AM
+# Build: 1/22/2021, 4:18:50 AM
 
 ## Current Legislators
 
 Parsed from [CSV](https://theunitedstates.io/congress-legislators/legislators-current.csv).
 
 ```
-$ npx ipsql@1.0.10 import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
+$ npx ipsql@1.0.11 import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
 ```
 
 ```
-1 { region: undefined }
 CREATE TABLE `legislators-current.csv` (
   `last_name` VARCHAR(17),
   `first_name` VARCHAR(11),
