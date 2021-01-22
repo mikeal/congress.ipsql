@@ -30,6 +30,8 @@ ${ buildOutput }
 
 ### Sample Queries
 
+This query will return information on all the female congress members currently serving.
+
 SQL
 
 \`\`\`
