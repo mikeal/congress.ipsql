@@ -6,7 +6,7 @@ const command = `npx ipsql@latest import export ${ csv } s3://ipsql-open-data`
 
 const readme = `# Congress Terms (FiveThirtyEight) in IPSQL
 
-# Build: ${ (new Date()).toLocaleString('en-US') }
+Build: ${ (new Date()).toLocaleString('en-US') }
 
 ## Current Legislators
 
