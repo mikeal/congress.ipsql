@@ -20,4 +20,5 @@ jobs:
           AWS_SECRET_ACCESS_KEY: ${{ secrets.AWS_SECRET_ACCESS_KEY }}
       - uses: mikeal/publish-to-github-action@master
         env:
+          BRANCH_NAME: main
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
