@@ -1,7 +1,7 @@
-npx: installed 354 in 14.311s
+npx: installed 354 in 13.953s
 # Congress Terms (FiveThirtyEight) in IPSQL
 
-# Build: 1/22/2021, 4:50:33 AM
+Build: 1/22/2021, 4:55:11 AM
 
 ## Current Legislators
 
