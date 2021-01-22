@@ -1,4 +1,3 @@
-npx: installed 354 in 15.948s
 (node:2971) UnhandledPromiseRejectionWarning: Error: Region is missing
     at default (/home/runner/.npm/_npx/2971/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
     at /home/runner/.npm/_npx/2971/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
