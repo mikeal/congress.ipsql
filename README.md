@@ -1,10 +1,7 @@
 npx: installed 354 in 13.298s
 (node:2944) UnhandledPromiseRejectionWarning: Error: Region is missing
     at default (/home/runner/.npm/_npx/2944/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/RegionConfig.js:10:15)
-    at /home/runner/.npm/_npx/2944/lib/node_modules/ipsql/node_modules/@aws-sdk/node-config-provider/dist/cjs/fromStatic.js:6:77
-    at /home/runner/.npm/_npx/2944/lib/node_modules/ipsql/node_modules/@aws-sdk/property-provider/dist/cjs/chain.js:20:28
-    at async getEndPointFromRegion (/home/runner/.npm/_npx/2944/lib/node_modules/ipsql/node_modules/@aws-sdk/config-resolver/dist/cjs/EndpointsConfig.js:29:20)
-    at async Object.serializeAws_restXmlGetBucketLocationCommand (/home/runner/.npm/_npx/2944/lib/node_modules/ipsql/node_modules/@aws-sdk/client-s3/dist/cjs/protocols/Aws_restXml.js:1297:52)
+    at /home/runner/.npm/_npx/2944/lib/node_m
     at async /home/runner/.npm/_npx/2944/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-serde/dist/cjs/serializerMiddleware.js:5:21
     at async /home/runner/.npm/_npx/2944/lib/node_modules/ipsql/node_modules/@aws-sdk/middleware-logger/dist/cjs/loggerMiddleware.js:6:22
 (Use `node --trace-warnings ...` to show where the warning was created)
