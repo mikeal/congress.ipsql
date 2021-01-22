@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 1/22/2021, 6:13:24 AM
+Build: 1/22/2021, 6:18:27 AM
 
 ## Current Legislators
 
@@ -55,12 +55,12 @@ s3://ipsql-open-data/bafyreietsf42p3rgich3mr6uenf26vrnzobmq5mlb4kpwwxlxyevdcgvqm
 SQL
 
 ```
-select party, state, type, full_name from `legislators-current.csv` where gender = "F" ORDER BY party, state, type, full_name
+SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name
 ```
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreietsf42p3rgich3mr6uenf26vrnzobmq5mlb4kpwwxlxyevdcgvqm.cid 'select party, state, type, full_name from `legislators-current.csv` where gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreietsf42p3rgich3mr6uenf26vrnzobmq5mlb4kpwwxlxyevdcgvqm.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
