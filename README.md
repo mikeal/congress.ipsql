@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 1/23/2021, 10:50:05 PM
+Build: 1/23/2021, 11:56:51 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreifti6xmhbgjcvx4nbsi7qemu3su6ddfosgyqtson65fkjbbhab5f4.cid
+s3://ipsql-open-data/bafyreigxfqb36pkstfxxdywnbvtup7x3ckwvdxjaopxry54te5xbwo6pfy.cid
 
 ```
 
