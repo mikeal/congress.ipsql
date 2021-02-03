@@ -35,7 +35,7 @@ CREATE TABLE `legislators-current.csv` (
 )
 # Congressional IPSQL Databases
 
-Build: 2/3/2021, 9:23:48 PM
+Build: 2/3/2021, 10:27:28 PM
 
 ## Current Legislators
 
