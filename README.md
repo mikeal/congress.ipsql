@@ -1,16 +1,3 @@
-# Congressional IPSQL Databases
-
-Build: 2/3/2021, 2:42:36 AM
-
-## Current Legislators
-
-Parsed from [CSV](https://theunitedstates.io/congress-legislators/legislators-current.csv).
-
-```
-$ npx -q ipsql@latest import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
-```
-
-```
 CREATE TABLE `legislators-current.csv` (
   `last_name` VARCHAR(17),
   `first_name` VARCHAR(11),
@@ -46,8 +33,20 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreigxfqb36pkstfxxdywnbvtup7x3ckwvdxjaopxry54te5xbwo6pfy.cid
+# Congressional IPSQL Databases
 
+Build: 2/3/2021, 3:31:20 AM
+
+## Current Legislators
+
+Parsed from [CSV](https://theunitedstates.io/congress-legislators/legislators-current.csv).
+
+```
+$ npx -q ipsql@latest import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
+```
+
+```
+s3://ipsql-open-data/bafyreigxfqb36pkstfxxdywnbvtup7x3ckwvdxjaopxry54te5xbwo6pfy.cid
 ```
 
 ### Sample Queries
