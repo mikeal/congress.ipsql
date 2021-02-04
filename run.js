@@ -1,18 +1,23 @@
 #!/usr/bin/env node
-import { execSync as exec } from 'child_process'
+import { promisify } from 'util'
+import { exec as baseExec } from 'child_process'
 
-const csv = `https://theunitedstates.io/congress-legislators/legislators-current.csv`
-const command = `npx -q ipsql@latest import export ${ csv } s3://ipsql-open-data`
+const exec = promisify(baseExec)
 
-const buildOutput = exec(command)
+const run = async () => {
+  const csv = `https://theunitedstates.io/congress-legislators/legislators-current.csv`
+  const command = `npx -q ipsql@latest import export ${ csv } s3://ipsql-open-data`
 
-const uri = buildOutput.slice(buildOutput.lastIndexOf('s3://'))
+  const { stdout, stderr } = await exec(command)
+  const buildOutput = stderr + stdout
 
-const sql = 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+  const uri = stdout
 
-const query = `npx -q ipsql@latest query s3://ipsql-open-data/bafyreietsf42p3rgich3mr6uenf26vrnzobmq5mlb4kpwwxlxyevdcgvqm.cid '${ sql }'`
+  const sql = 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 
-const readme = `# Congressional IPSQL Databases
+  const query = `npx -q ipsql@latest query ${ uri } '${ sql }'`
+
+  const readme = `# Congressional IPSQL Databases
 
 Build: ${ (new Date()).toLocaleString('en-US') }
 
@@ -45,7 +50,9 @@ ${ query }
 
 Output
 \`\`\`
-${ exec(query) }
+${ (await exec(query)).stdout.toString() }
 \`\`\`
 `
-console.log(readme)
+  console.log(readme)
+}
+run()
