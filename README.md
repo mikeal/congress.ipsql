@@ -1,3 +1,16 @@
+# Congressional IPSQL Databases
+
+Build: 2/4/2021, 12:38:13 AM
+
+## Current Legislators
+
+Parsed from [CSV](https://theunitedstates.io/congress-legislators/legislators-current.csv).
+
+```
+$ npx -q ipsql@latest import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
+```
+
+```
 CREATE TABLE `legislators-current.csv` (
   `last_name` VARCHAR(17),
   `first_name` VARCHAR(11),
@@ -33,19 +46,6 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-# Congressional IPSQL Databases
-
-Build: 2/3/2021, 11:27:16 PM
-
-## Current Legislators
-
-Parsed from [CSV](https://theunitedstates.io/congress-legislators/legislators-current.csv).
-
-```
-$ npx -q ipsql@latest import export https://theunitedstates.io/congress-legislators/legislators-current.csv s3://ipsql-open-data
-```
-
-```
 s3://ipsql-open-data/bafyreigxfqb36pkstfxxdywnbvtup7x3ckwvdxjaopxry54te5xbwo6pfy.cid
 ```
 
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreietsf42p3rgich3mr6uenf26vrnzobmq5mlb4kpwwxlxyevdcgvqm.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreigxfqb36pkstfxxdywnbvtup7x3ckwvdxjaopxry54te5xbwo6pfy.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
