@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 2/12/2021, 7:20:47 PM
+Build: 2/12/2021, 8:26:18 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreihucal26pk4vhh5nhghrn2cyth6r7mywxfewweedmx3pts7ryhh6i.cid
+s3://ipsql-open-data/bafyreigpizztu5ah37xosxjdktvalm4ji5uacb2hmbsvyktkkcyuku7zka.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreihucal26pk4vhh5nhghrn2cyth6r7mywxfewweedmx3pts7ryhh6i.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreigpizztu5ah37xosxjdktvalm4ji5uacb2hmbsvyktkkcyuku7zka.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -196,6 +196,7 @@ Output
 "Republican","NC","rep","Virginia Foxx"
 "Republican","NE","sen","Deb Fischer"
 "Republican","NM","rep","Yvette Herrell"
+"Republican","NY","rep","Claudia Tenney"
 "Republican","NY","rep","Elise M. Stefanik"
 "Republican","NY","rep","Nicole Malliotakis"
 "Republican","OK","rep","Stephanie I. Bice"
