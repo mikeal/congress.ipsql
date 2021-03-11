@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 3/11/2021, 7:22:30 PM
+Build: 3/11/2021, 8:27:59 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreihnwc4cwhoma3n7vqchsthgp2v3dlvlb4nqhwvt4mw3z3y2fa6pba.cid
+s3://ipsql-open-data/bafyreicoahskfckljqz2cktorikduheesd4b2ve3nbfd3brtxrx3kqyrou.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreihnwc4cwhoma3n7vqchsthgp2v3dlvlb4nqhwvt4mw3z3y2fa6pba.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreicoahskfckljqz2cktorikduheesd4b2ve3nbfd3brtxrx3kqyrou.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -149,7 +149,6 @@ Output
 "Democrat","NY","rep","Yvette D. Clarke"
 "Democrat","NY","sen","Kirsten E. Gillibrand"
 "Democrat","OH","rep","Joyce Beatty"
-"Democrat","OH","rep","Marcia L. Fudge"
 "Democrat","OH","rep","Marcy Kaptur"
 "Democrat","OR","rep","Suzanne Bonamici"
 "Democrat","PA","rep","Chrissy Houlahan"
