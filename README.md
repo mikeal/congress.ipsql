@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 7/31/2021, 12:15:23 PM
+Build: 7/31/2021, 1:15:18 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreifjabvypv3vlhbyhakbssxxyvur2sjfentxdeyrpoc5omj4utzdoy.cid
+s3://ipsql-open-data/bafyreictxqqtozqqrc6pvz66vfebbnuux2tuialnrlyfdxc5ci5qrp34nu.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreifjabvypv3vlhbyhakbssxxyvur2sjfentxdeyrpoc5omj4utzdoy.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreictxqqtozqqrc6pvz66vfebbnuux2tuialnrlyfdxc5ci5qrp34nu.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -135,8 +135,8 @@ Output
 "Democrat","NH","sen","Margaret Wood Hassan"
 "Democrat","NJ","rep","Bonnie Watson Coleman"
 "Democrat","NJ","rep","Mikie Sherrill"
+"Democrat","NM","rep","Melanie A. Stansbury"
 "Democrat","NM","rep","Teresa Leger Fernandez"
-"Democrat","NM","rep",null
 "Democrat","NV","rep","Dina Titus"
 "Democrat","NV","rep","Susie Lee"
 "Democrat","NV","sen","Catherine Cortez Masto"
