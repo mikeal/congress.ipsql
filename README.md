@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 8/22/2021, 10:14:14 PM
+Build: 8/22/2021, 11:14:36 PM
 
 ## Current Legislators
 
