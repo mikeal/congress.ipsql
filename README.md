@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 2/6/2022, 9:14:17 PM
+Build: 2/6/2022, 10:14:19 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreif5codl2mkpb45rksmc3rp3fozcyumuqw3nfpxukgxo63wddq6gxq.cid
+s3://ipsql-open-data/bafyreierpw6mkhlpgxaql5n4zh63cqmnequx5evpsyhgnqfghfpsimwphu.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreif5codl2mkpb45rksmc3rp3fozcyumuqw3nfpxukgxo63wddq6gxq.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreierpw6mkhlpgxaql5n4zh63cqmnequx5evpsyhgnqfghfpsimwphu.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -96,9 +96,9 @@ Output
 "Democrat","FL","rep","Frederica S. Wilson"
 "Democrat","FL","rep","Kathy Castor"
 "Democrat","FL","rep","Lois Frankel"
+"Democrat","FL","rep","Sheila Cherfilus-McCormick"
 "Democrat","FL","rep","Stephanie N. Murphy"
 "Democrat","FL","rep","Val Butler Demings"
-"Democrat","FL","rep",null
 "Democrat","GA","rep","Carolyn Bourdeaux"
 "Democrat","GA","rep","Lucy McBath"
 "Democrat","GA","rep","Nikema Williams"
@@ -151,7 +151,7 @@ Output
 "Democrat","NY","sen","Kirsten E. Gillibrand"
 "Democrat","OH","rep","Joyce Beatty"
 "Democrat","OH","rep","Marcy Kaptur"
-"Democrat","OH","rep",null
+"Democrat","OH","rep","Shontel M. Brown"
 "Democrat","OR","rep","Suzanne Bonamici"
 "Democrat","PA","rep","Chrissy Houlahan"
 "Democrat","PA","rep","Madeleine Dean"
