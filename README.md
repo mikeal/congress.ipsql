@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 4/9/2022, 4:15:17 PM
+Build: 4/9/2022, 5:14:51 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreibnzp6mji4nwgxkqg6p4htg6q2fp7h3iuwanngv5dezx53irypmbe.cid
+s3://ipsql-open-data/bafyreighd4ssabpe7zsxcsmlldsrl3r3x3jeqqofwxsyvwxjf4vr5nwer4.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreibnzp6mji4nwgxkqg6p4htg6q2fp7h3iuwanngv5dezx53irypmbe.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreighd4ssabpe7zsxcsmlldsrl3r3x3jeqqofwxsyvwxjf4vr5nwer4.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
