@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 6/22/2022, 10:14:36 PM
+Build: 6/22/2022, 11:14:41 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreicl37jmhjve65lldly7got5ttsevgtsmupan3326dji4o5qsdcffy.cid
+s3://ipsql-open-data/bafyreie5tinpwxjzb73jwivpzbmurb2zmzeooodvintcgekvvvqaefprv4.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreicl37jmhjve65lldly7got5ttsevgtsmupan3326dji4o5qsdcffy.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreie5tinpwxjzb73jwivpzbmurb2zmzeooodvintcgekvvvqaefprv4.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -177,6 +177,7 @@ Output
 "Republican","AK","sen","Lisa Murkowski"
 "Republican","AS","rep","Aumua Amata Coleman Radewagen"
 "Republican","AZ","rep","Debbie Lesko"
+"Republican","CA","rep","Connie Conway"
 "Republican","CA","rep","Michelle Steel"
 "Republican","CA","rep","Young Kim"
 "Republican","CO","rep","Lauren Boebert"
@@ -208,6 +209,7 @@ Output
 "Republican","TN","sen","Marsha Blackburn"
 "Republican","TX","rep","Beth Van Duyne"
 "Republican","TX","rep","Kay Granger"
+"Republican","TX","rep","Mayra Flores"
 "Republican","WA","rep","Cathy McMorris Rodgers"
 "Republican","WA","rep","Jaime Herrera Beutler"
 "Republican","WV","rep","Carol D. Miller"
