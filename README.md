@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 7/20/2022, 11:15:25 PM
+Build: 7/21/2022, 12:29:47 AM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreidnzrzj37j5gz3dlcwt7atwm37pkeaduilrggazuhj6rn7cn2a73i.cid
+s3://ipsql-open-data/bafyreievvy6ofhwovdfqmblbbzx4ez7vo64u4wbrinmeexrd2vpogn55ha.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreidnzrzj37j5gz3dlcwt7atwm37pkeaduilrggazuhj6rn7cn2a73i.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreievvy6ofhwovdfqmblbbzx4ez7vo64u4wbrinmeexrd2vpogn55ha.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -182,6 +182,7 @@ Output
 "Republican","CA","rep","Young Kim"
 "Republican","CO","rep","Lauren Boebert"
 "Republican","FL","rep","Kat Cammack"
+"Republican","FL","rep","Maria Elvira Salazar"
 "Republican","GA","rep","Marjorie Taylor Greene"
 "Republican","IA","rep","Ashley Hinson"
 "Republican","IA","rep","Mariannette Miller-Meeks"
