@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 8/3/2022, 8:15:16 PM
+Build: 8/3/2022, 9:15:00 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreievvy6ofhwovdfqmblbbzx4ez7vo64u4wbrinmeexrd2vpogn55ha.cid
+s3://ipsql-open-data/bafyreiausauxgh67w4bephqurbmoixnjme2h4hn5p27ycswq56tgsfq5uu.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreievvy6ofhwovdfqmblbbzx4ez7vo64u4wbrinmeexrd2vpogn55ha.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreiausauxgh67w4bephqurbmoixnjme2h4hn5p27ycswq56tgsfq5uu.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -188,7 +188,6 @@ Output
 "Republican","IA","rep","Mariannette Miller-Meeks"
 "Republican","IA","sen","Joni Ernst"
 "Republican","IL","rep","Mary E. Miller"
-"Republican","IN","rep","Jackie Walorski"
 "Republican","IN","rep","Victoria Spartz"
 "Republican","LA","rep","Julia Letlow"
 "Republican","ME","sen","Susan M. Collins"
