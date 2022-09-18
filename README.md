@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 9/18/2022, 9:14:43 PM
+Build: 9/18/2022, 10:15:08 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreigxdhyih5jrwtdikyghgqzey5cma6adowomb7zgmniw3nqqbfpsxm.cid
+s3://ipsql-open-data/bafyreicriivm2jhjc4f4qcn3uoapqsmw7aettbre6bsnjskkq7rqmoasm4.cid
 ```
 
 ### Sample Queries
@@ -61,11 +61,12 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreigxdhyih5jrwtdikyghgqzey5cma6adowomb7zgmniw3nqqbfpsxm.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreicriivm2jhjc4f4qcn3uoapqsmw7aettbre6bsnjskkq7rqmoasm4.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
 ```
+"Democrat","AK","rep","Mary Sattler Peltola"
 "Democrat","AL","rep","Terri Sewell"
 "Democrat","AZ","rep","Ann Kirkpatrick"
 "Democrat","AZ","sen","Kyrsten Sinema"
