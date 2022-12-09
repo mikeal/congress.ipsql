@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 12/9/2022, 11:13:52 AM
+Build: 12/9/2022, 12:15:49 PM
 
 ## Current Legislators
 
@@ -46,7 +46,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreidqpi4aou2gyvf5vgv6ajwthxsf5hrqzzd2s3xvatcpvcikyckq6m.cid
+s3://ipsql-open-data/bafyreideijezqgloxqk2by7xgcc3gzqqb24cllbpathdvrofh45o7okaoe.cid
 ```
 
 ### Sample Queries
@@ -61,7 +61,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreidqpi4aou2gyvf5vgv6ajwthxsf5hrqzzd2s3xvatcpvcikyckq6m.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreideijezqgloxqk2by7xgcc3gzqqb24cllbpathdvrofh45o7okaoe.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -69,7 +69,6 @@ Output
 "Democrat","AK","rep","Mary Sattler Peltola"
 "Democrat","AL","rep","Terri Sewell"
 "Democrat","AZ","rep","Ann Kirkpatrick"
-"Democrat","AZ","sen","Kyrsten Sinema"
 "Democrat","CA","rep","Anna G. Eshoo"
 "Democrat","CA","rep","Barbara Lee"
 "Democrat","CA","rep","Doris O. Matsui"
@@ -175,6 +174,7 @@ Output
 "Democrat","WA","sen","Patty Murray"
 "Democrat","WI","rep","Gwen Moore"
 "Democrat","WI","sen","Tammy Baldwin"
+"Independent","AZ","sen","Kyrsten Sinema"
 "Republican","AK","sen","Lisa Murkowski"
 "Republican","AS","rep","Aumua Amata Coleman Radewagen"
 "Republican","AZ","rep","Debbie Lesko"
