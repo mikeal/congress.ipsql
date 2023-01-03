@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 1/3/2023, 7:13:37 PM
+Build: 1/3/2023, 8:14:34 PM
 
 ## Current Legislators
 
@@ -13,8 +13,8 @@ $ npx -q ipsql@latest import export https://theunitedstates.io/congress-legislat
 ```
 CREATE TABLE `legislators-current.csv` (
   `last_name` VARCHAR(19),
-  `first_name` VARCHAR(11),
-  `middle_name` VARCHAR(14),
+  `first_name` VARCHAR(15),
+  `middle_name` VARCHAR(23),
   `suffix` VARCHAR(3),
   `nickname` VARCHAR(7),
   `full_name` VARCHAR(30),
@@ -28,11 +28,11 @@ CREATE TABLE `legislators-current.csv` (
   `url` VARCHAR(37),
   `address` VARCHAR(61),
   `phone` VARCHAR(12),
-  `contact_form` VARCHAR(70),
-  `rss_url` VARCHAR(106),
+  `contact_form` VARCHAR(69),
+  `rss_url` VARCHAR(93),
   `twitter` VARCHAR(15),
   `twitter_id` VARCHAR(19),
-  `facebook` VARCHAR(32),
+  `facebook` VARCHAR(29),
   `youtube` VARCHAR(20),
   `youtube_id` VARCHAR(24),
   `mastodon` VARCHAR(36),
@@ -48,7 +48,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreiaeugwtx6pn64ycjkzedx2pcudb2nmysmyn3tpv6gxiacfhknh2oy.cid
+s3://ipsql-open-data/bafyreiejcn6fs3kvckt4h5uc4tgf2fdvcowoqc2yjl6ftbk5dnjf3jykfq.cid
 ```
 
 ### Sample Queries
@@ -63,33 +63,32 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreiaeugwtx6pn64ycjkzedx2pcudb2nmysmyn3tpv6gxiacfhknh2oy.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreiejcn6fs3kvckt4h5uc4tgf2fdvcowoqc2yjl6ftbk5dnjf3jykfq.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
 ```
 "Democrat","AK","rep","Mary Sattler Peltola"
-"Democrat","AL","rep","Terri Sewell"
-"Democrat","AZ","rep","Ann Kirkpatrick"
+"Democrat","AL","rep","Terri A. Sewell"
 "Democrat","CA","rep","Anna G. Eshoo"
 "Democrat","CA","rep","Barbara Lee"
 "Democrat","CA","rep","Doris O. Matsui"
 "Democrat","CA","rep","Grace F. Napolitano"
-"Democrat","CA","rep","Jackie Speier"
 "Democrat","CA","rep","Judy Chu"
 "Democrat","CA","rep","Julia Brownley"
-"Democrat","CA","rep","Karen Bass"
 "Democrat","CA","rep","Katie Porter"
 "Democrat","CA","rep","Linda T. Sánchez"
-"Democrat","CA","rep","Lucille Roybal-Allard"
 "Democrat","CA","rep","Maxine Waters"
 "Democrat","CA","rep","Nancy Pelosi"
 "Democrat","CA","rep","Nanette Diaz Barragán"
 "Democrat","CA","rep","Norma J. Torres"
 "Democrat","CA","rep","Sara Jacobs"
+"Democrat","CA","rep","Sydney Kamlager-Dove"
 "Democrat","CA","rep","Zoe Lofgren"
 "Democrat","CA","sen","Dianne Feinstein"
+"Democrat","CO","rep","Brittany Pettersen"
 "Democrat","CO","rep","Diana DeGette"
+"Democrat","CO","rep","Yadira Caraveo"
 "Democrat","CT","rep","Jahana Hayes"
 "Democrat","CT","rep","Rosa L. DeLauro"
 "Democrat","DC","rep","Eleanor Holmes Norton"
@@ -99,17 +98,14 @@ Output
 "Democrat","FL","rep","Kathy Castor"
 "Democrat","FL","rep","Lois Frankel"
 "Democrat","FL","rep","Sheila Cherfilus-McCormick"
-"Democrat","FL","rep","Stephanie N. Murphy"
-"Democrat","FL","rep","Val Butler Demings"
-"Democrat","GA","rep","Carolyn Bourdeaux"
 "Democrat","GA","rep","Lucy McBath"
 "Democrat","GA","rep","Nikema Williams"
+"Democrat","HI","rep","Jill N. Tokuda"
 "Democrat","HI","sen","Mazie K. Hirono"
-"Democrat","IA","rep","Cynthia Axne"
-"Democrat","IL","rep","Cheri Bustos"
+"Democrat","IL","rep","Delia C. Ramirez"
 "Democrat","IL","rep","Janice D. Schakowsky"
 "Democrat","IL","rep","Lauren Underwood"
-"Democrat","IL","rep","Marie Newman"
+"Democrat","IL","rep","Nikki Budzinski"
 "Democrat","IL","rep","Robin L. Kelly"
 "Democrat","IL","sen","Tammy Duckworth"
 "Democrat","KS","rep","Sharice Davids"
@@ -118,10 +114,10 @@ Output
 "Democrat","MA","rep","Lori Trahan"
 "Democrat","MA","sen","Elizabeth Warren"
 "Democrat","ME","rep","Chellie Pingree"
-"Democrat","MI","rep","Brenda L. Lawrence"
 "Democrat","MI","rep","Debbie Dingell"
 "Democrat","MI","rep","Elissa Slotkin"
 "Democrat","MI","rep","Haley M. Stevens"
+"Democrat","MI","rep","Hillary J. Scholten"
 "Democrat","MI","rep","Rashida Tlaib"
 "Democrat","MI","sen","Debbie Stabenow"
 "Democrat","MN","rep","Angie Craig"
@@ -133,7 +129,8 @@ Output
 "Democrat","NC","rep","Alma S. Adams"
 "Democrat","NC","rep","Deborah K. Ross"
 "Democrat","NC","rep","Kathy E. Manning"
-"Democrat","NH","rep","Ann Kuster"
+"Democrat","NC","rep","Valerie P. Foushee"
+"Democrat","NH","rep","Ann M. Kuster"
 "Democrat","NH","sen","Jeanne Shaheen"
 "Democrat","NH","sen","Margaret Wood Hassan"
 "Democrat","NJ","rep","Bonnie Watson Coleman"
@@ -145,30 +142,33 @@ Output
 "Democrat","NV","sen","Catherine Cortez Masto"
 "Democrat","NV","sen","Jacky Rosen"
 "Democrat","NY","rep","Alexandria Ocasio-Cortez"
-"Democrat","NY","rep","Carolyn B. Maloney"
 "Democrat","NY","rep","Grace Meng"
-"Democrat","NY","rep","Kathleen M. Rice"
 "Democrat","NY","rep","Nydia M. Velázquez"
 "Democrat","NY","rep","Yvette D. Clarke"
 "Democrat","NY","sen","Kirsten E. Gillibrand"
+"Democrat","OH","rep","Emilia Strong Sykes"
 "Democrat","OH","rep","Joyce Beatty"
 "Democrat","OH","rep","Marcy Kaptur"
 "Democrat","OH","rep","Shontel M. Brown"
+"Democrat","OR","rep","Andrea Salinas"
 "Democrat","OR","rep","Suzanne Bonamici"
+"Democrat","OR","rep","Val T. Hoyle"
 "Democrat","PA","rep","Chrissy Houlahan"
 "Democrat","PA","rep","Madeleine Dean"
 "Democrat","PA","rep","Mary Gay Scanlon"
+"Democrat","PA","rep","Summer L. Lee"
 "Democrat","PA","rep","Susan Wild"
-"Democrat","TX","rep","Eddie Bernice Johnson"
+"Democrat","TX","rep","Jasmine Crockett"
 "Democrat","TX","rep","Lizzie Fletcher"
 "Democrat","TX","rep","Sheila Jackson Lee"
 "Democrat","TX","rep","Sylvia R. Garcia"
 "Democrat","TX","rep","Veronica Escobar"
 "Democrat","VA","rep","Abigail Davis Spanberger"
-"Democrat","VA","rep","Elaine G. Luria"
 "Democrat","VA","rep","Jennifer Wexton"
 "Democrat","VI","rep","Stacey E. Plaskett"
+"Democrat","VT","rep","Becca Balint"
 "Democrat","WA","rep","Kim Schrier"
+"Democrat","WA","rep","Marie Gluesenkamp Perez"
 "Democrat","WA","rep","Marilyn Strickland"
 "Democrat","WA","rep","Pramila Jayapal"
 "Democrat","WA","rep","Suzan K. DelBene"
@@ -178,46 +178,48 @@ Output
 "Democrat","WI","sen","Tammy Baldwin"
 "Independent","AZ","sen","Kyrsten Sinema"
 "Republican","AK","sen","Lisa Murkowski"
+"Republican","AL","sen","Katie Boyd Britt"
 "Republican","AS","rep","Aumua Amata Coleman Radewagen"
 "Republican","AZ","rep","Debbie Lesko"
-"Republican","CA","rep","Connie Conway"
 "Republican","CA","rep","Michelle Steel"
 "Republican","CA","rep","Young Kim"
 "Republican","CO","rep","Lauren Boebert"
+"Republican","FL","rep","Anna Paulina Luna"
 "Republican","FL","rep","Kat Cammack"
+"Republican","FL","rep","Laurel M. Lee"
 "Republican","FL","rep","Maria Elvira Salazar"
 "Republican","GA","rep","Marjorie Taylor Greene"
 "Republican","IA","rep","Ashley Hinson"
 "Republican","IA","rep","Mariannette Miller-Meeks"
 "Republican","IA","sen","Joni Ernst"
 "Republican","IL","rep","Mary E. Miller"
+"Republican","IN","rep","Erin Houchin"
 "Republican","IN","rep","Victoria Spartz"
 "Republican","LA","rep","Julia Letlow"
 "Republican","ME","sen","Susan M. Collins"
 "Republican","MI","rep","Lisa C. McClain"
 "Republican","MN","rep","Michelle Fischbach"
 "Republican","MO","rep","Ann Wagner"
-"Republican","MO","rep","Vicky Hartzler"
 "Republican","MS","sen","Cindy Hyde-Smith"
 "Republican","NC","rep","Virginia Foxx"
 "Republican","NE","sen","Deb Fischer"
-"Republican","NM","rep","Yvette Herrell"
 "Republican","NY","rep","Claudia Tenney"
 "Republican","NY","rep","Elise M. Stefanik"
 "Republican","NY","rep","Nicole Malliotakis"
 "Republican","OK","rep","Stephanie I. Bice"
+"Republican","OR","rep","Lori Chavez-DeRemer"
 "Republican","PR","rep","Jenniffer González-Colón"
 "Republican","SC","rep","Nancy Mace"
 "Republican","TN","rep","Diana Harshbarger"
 "Republican","TN","sen","Marsha Blackburn"
 "Republican","TX","rep","Beth Van Duyne"
 "Republican","TX","rep","Kay Granger"
-"Republican","TX","rep","Mayra Flores"
+"Republican","TX","rep","Monica De La Cruz"
+"Republican","VA","rep","Jennifer Kiggans"
 "Republican","WA","rep","Cathy McMorris Rodgers"
-"Republican","WA","rep","Jaime Herrera Beutler"
 "Republican","WV","rep","Carol D. Miller"
 "Republican","WV","sen","Shelley Moore Capito"
-"Republican","WY","rep","Liz Cheney"
+"Republican","WY","rep","Harriet M. Hageman"
 "Republican","WY","sen","Cynthia M. Lummis"
 
 ```
