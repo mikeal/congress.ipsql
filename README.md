@@ -1,6 +1,6 @@
 # Congressional IPSQL Databases
 
-Build: 3/9/2023, 1:17:14 PM
+Build: 3/9/2023, 2:14:25 PM
 
 ## Current Legislators
 
@@ -48,7 +48,7 @@ CREATE TABLE `legislators-current.csv` (
   `icpsr_id` INTEGER,
   `wikipedia_id` VARCHAR(39)
 )
-s3://ipsql-open-data/bafyreiel73uksvdlrvhy54yhdhqsftaen25ras2oo3vcrl7sp2emzpuf7e.cid
+s3://ipsql-open-data/bafyreidwn352wn76azqfr35ouyl7f4knhr76jxpdb526tpcipevp5rnuim.cid
 ```
 
 ### Sample Queries
@@ -63,7 +63,7 @@ SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender
 
 CLI
 ```
-npx -q ipsql@latest query s3://ipsql-open-data/bafyreiel73uksvdlrvhy54yhdhqsftaen25ras2oo3vcrl7sp2emzpuf7e.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
+npx -q ipsql@latest query s3://ipsql-open-data/bafyreidwn352wn76azqfr35ouyl7f4knhr76jxpdb526tpcipevp5rnuim.cid 'SELECT party, state, type, full_name FROM `legislators-current.csv` WHERE gender = "F" ORDER BY party, state, type, full_name'
 ```
 
 Output
@@ -164,6 +164,7 @@ Output
 "Democrat","TX","rep","Sylvia R. Garcia"
 "Democrat","TX","rep","Veronica Escobar"
 "Democrat","VA","rep","Abigail Davis Spanberger"
+"Democrat","VA","rep","Jennifer L. McClellan"
 "Democrat","VA","rep","Jennifer Wexton"
 "Democrat","VI","rep","Stacey E. Plaskett"
 "Democrat","VT","rep","Becca Balint"
